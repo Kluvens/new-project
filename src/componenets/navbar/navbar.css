@@ -1,0 +1,54 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+    background-color: white;
+    border-bottom: 3px solid black;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.team-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.team-name {
+    margin: 0;
+    font-size: 2.125rem;
+    font-weight: bold;
+    color: black;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    border: 1px solid black;
+    padding: 0 10px;
+    border-radius: 15px;
+}
+
+.search-icon {
+    margin: 0;
+    width: 18px;
+    height: 18px;
+}
+
+.search-input {
+    height: 30px;
+    width: 200px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: black;
+    background-color: transparent;
+}
